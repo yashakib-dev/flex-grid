@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px); 
+     grid-template-columns: repeat(4, 1fr);  /*This code override the previous code */
+    justify-content: center;
+    
+    
+   
+}
+.box{
+    font-size: 30px;
+    border: 2px solid peru;
+}
