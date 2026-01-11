@@ -1,0 +1,25 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+
+    align-items: center;
+    height: 250px;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.box{
+    border: 2px dashed black;
+    height: 50px;
+    width: 50px;
+    font-size: 50px ;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
