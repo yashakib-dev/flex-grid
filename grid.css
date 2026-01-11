@@ -3,11 +3,35 @@
     grid-template-columns: repeat(3, 200px); 
      grid-template-columns: repeat(4, 1fr);  /*This code override the previous code */
     justify-content: center;
-    
-    
-   
+    margin-bottom: 100px;
+
 }
-.box{
+.container .box{
     font-size: 30px;
     border: 2px solid peru;
+    
+}
+
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(5, 50px);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.calender .box{
+        font-size: 30px;
+        background-color: skyblue;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+
+}
+
+.set-width{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
 }
