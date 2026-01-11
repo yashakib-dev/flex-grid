@@ -7,7 +7,7 @@
     max-width: 1140px;
     margin: 0 auto;
     gap: 50px;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     
 }
@@ -22,4 +22,15 @@
     align-items: center; 
    
 }
-
+nav{
+    display: flex;
+    justify-content: space-between;   
+   
+}
+nav #hba{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+}
